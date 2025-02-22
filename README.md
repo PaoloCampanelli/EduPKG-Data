@@ -8,4 +8,4 @@ Questo repository contiene:
 Il file OWL può essere aperto con strumenti come Protégé o visualizzato con un editor di testo.
 
 ## Licenza
-Questi dati sono rilasciati sotto la licenza MIT/CC-BY (o quella che scegli).
+Questi dati sono rilasciati sotto la licenza MIT.
