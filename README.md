@@ -1,9 +1,10 @@
 # EduPKG - Ontology & Survey Results
 
-Questo repository contiene:
-- **EduPKG.owl** → L'ontologia per l'educazione STEM
-- **survey_results.csv** → I risultati del sondaggio sull'uso delle tecnologie educative
+This repository contains:
+- **EduPKG.owl** → The ontology for STEM education.
+- **survey_results.csv** → The survey results on the use of educational technologies.
 
-## Come usare EduPKG.owl
-Il file OWL può essere aperto con strumenti come Protégé o visualizzato con un editor di testo.
+## How to Use EduPKG.owl
+The OWL file can be opened with ontology editors like **Protégé**.  
+You can download Protégé here: [Protégé Download](https://protege.stanford.edu/)
 
