@@ -1,0 +1,1605 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/paolocampanelli/ontologies/2024/11/untitled-ontology-68"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/paolocampanelli/ontologies/2024/11/untitled-ontology-68">
+    <Prefix name="" IRI="http://www.semanticweb.org/paolocampanelli/ontologies/2024/11/EduPkg"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ActivityType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdvancedResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collaboration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CollaborativeActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CollaborativeMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Communication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Competency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CreativeActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Creativity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CriticalThinking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DigitalContentCreation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DigitalResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntryLevelResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExperientialMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExplorationActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FullClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GamifiedMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HandsOnActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Humanities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationAndDataLiteracy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterdisciplinarySubject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JointClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KindergartenTeacher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearningLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MixedAbilityGroup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PassiveMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimaryTeacher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProblemSolving"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProblemSolvingActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#STEMSubject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Safety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecondaryTeacher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmallGroup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TargetType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TeachingMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeAllocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#adoptsTeachingMethod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDesignedFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOfSubject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSuitableForLearningLevel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresTimeAllocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#targetsCompetency"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesResource"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDifficultyLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDuration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMaterialType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arduino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Art"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CodyRoby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CollaborationSkill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CommunicationSkill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ComputerScience"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CreativitySkill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CriticalEvaluationSkill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CriticalThinkingSkill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CyberSecurityAwareness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataPrivacySkill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataSearchingSkill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DigitalCommunicationSkill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#English"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FullClass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GameFroot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Geography"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GreenEnergyLab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GroupWork"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#History"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InformationManagementSkill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InnovativeThinkingSkill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JointClass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KinderGarten"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LearningByDoing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LectureBasedLearning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LegoSpikeEssential"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LegoWeDo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LittleStemPlay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mathematics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MixedAbilityGroup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MkBlock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MultimediaCreationSkill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Music"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OnlineCollaborationSkill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PeerTeaching"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Physics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PlayArduino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PrimarySchool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProblemBasedLearning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProblemSolvingSkill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProgrammingSkill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProjectBasedLearning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QuizOnline"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Science"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SecondarySchool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeriousGame"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SmallGroup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpheroIndi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SuperDOCPro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Technology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TroubleshootingSkill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnderstandingCopyright"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnpluggedExperience"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VideogameCreation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#12h"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#15h"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#25h"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#6h"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#60h"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#8h"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#AdvancedResource"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Resource"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasDifficultyLevel"/>
+                <Literal>Avanzato</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#DigitalResource"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Resource"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasMaterialType"/>
+                <Literal>Digitale</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EntryLevelResource"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Resource"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasDifficultyLevel"/>
+                <Literal>Base</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PhysicalResource"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Resource"/>
+            <DataHasValue>
+                <DataProperty IRI="#hasMaterialType"/>
+                <Literal>Fisica</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AdvancedResource"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collaboration"/>
+        <Class IRI="#Competency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CollaborativeActivity"/>
+        <Class IRI="#ActivityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CollaborativeMethod"/>
+        <Class IRI="#TeachingMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Communication"/>
+        <Class IRI="#Competency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CreativeActivity"/>
+        <Class IRI="#ActivityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Creativity"/>
+        <Class IRI="#Competency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CriticalThinking"/>
+        <Class IRI="#Competency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DigitalContentCreation"/>
+        <Class IRI="#Competency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DigitalResource"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EntryLevelResource"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExperientialMethod"/>
+        <Class IRI="#TeachingMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExplorationActivity"/>
+        <Class IRI="#ActivityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FullClass"/>
+        <Class IRI="#TargetType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GamifiedMethod"/>
+        <Class IRI="#TeachingMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HandsOnActivity"/>
+        <Class IRI="#ActivityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humanities"/>
+        <Class IRI="#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationAndDataLiteracy"/>
+        <Class IRI="#Competency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InterdisciplinarySubject"/>
+        <Class IRI="#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JointClass"/>
+        <Class IRI="#TargetType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KindergartenTeacher"/>
+        <Class IRI="#TargetType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MixedAbilityGroup"/>
+        <Class IRI="#TargetType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PassiveMethod"/>
+        <Class IRI="#TeachingMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalResource"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrimaryTeacher"/>
+        <Class IRI="#TargetType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProblemSolving"/>
+        <Class IRI="#Competency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProblemSolvingActivity"/>
+        <Class IRI="#ActivityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#STEMSubject"/>
+        <Class IRI="#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Safety"/>
+        <Class IRI="#Competency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecondaryTeacher"/>
+        <Class IRI="#TargetType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmallGroup"/>
+        <Class IRI="#TargetType"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#ActivityType"/>
+        <Class IRI="#Competency"/>
+        <Class IRI="#LearningLevel"/>
+        <Class IRI="#Resource"/>
+        <Class IRI="#Subject"/>
+        <Class IRI="#TargetType"/>
+        <Class IRI="#TeachingMethod"/>
+        <Class IRI="#TimeAllocation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AdvancedResource"/>
+        <Class IRI="#EntryLevelResource"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Collaboration"/>
+        <Class IRI="#Communication"/>
+        <Class IRI="#Creativity"/>
+        <Class IRI="#CriticalThinking"/>
+        <Class IRI="#DigitalContentCreation"/>
+        <Class IRI="#InformationAndDataLiteracy"/>
+        <Class IRI="#ProblemSolving"/>
+        <Class IRI="#Safety"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CollaborativeActivity"/>
+        <Class IRI="#CreativeActivity"/>
+        <Class IRI="#ExplorationActivity"/>
+        <Class IRI="#HandsOnActivity"/>
+        <Class IRI="#ProblemSolvingActivity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CollaborativeMethod"/>
+        <Class IRI="#ExperientialMethod"/>
+        <Class IRI="#GamifiedMethod"/>
+        <Class IRI="#PassiveMethod"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Communication"/>
+        <Class IRI="#DigitalContentCreation"/>
+        <Class IRI="#InformationAndDataLiteracy"/>
+        <Class IRI="#ProblemSolving"/>
+        <Class IRI="#Safety"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DigitalResource"/>
+        <Class IRI="#PhysicalResource"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FullClass"/>
+        <Class IRI="#JointClass"/>
+        <Class IRI="#KindergartenTeacher"/>
+        <Class IRI="#MixedAbilityGroup"/>
+        <Class IRI="#PrimaryTeacher"/>
+        <Class IRI="#SecondaryTeacher"/>
+        <Class IRI="#SmallGroup"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Humanities"/>
+        <Class IRI="#InterdisciplinarySubject"/>
+        <Class IRI="#STEMSubject"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Resource"/>
+        <NamedIndividual IRI="#Arduino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Humanities"/>
+        <NamedIndividual IRI="#Art"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collaboration"/>
+        <NamedIndividual IRI="#CollaborationSkill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Communication"/>
+        <NamedIndividual IRI="#CommunicationSkill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#STEMSubject"/>
+        <NamedIndividual IRI="#ComputerScience"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Creativity"/>
+        <NamedIndividual IRI="#CreativitySkill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InformationAndDataLiteracy"/>
+        <NamedIndividual IRI="#CriticalEvaluationSkill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalThinking"/>
+        <NamedIndividual IRI="#CriticalThinkingSkill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Safety"/>
+        <NamedIndividual IRI="#CyberSecurityAwareness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Safety"/>
+        <NamedIndividual IRI="#DataPrivacySkill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InformationAndDataLiteracy"/>
+        <NamedIndividual IRI="#DataSearchingSkill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Communication"/>
+        <NamedIndividual IRI="#DigitalCommunicationSkill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InterdisciplinarySubject"/>
+        <NamedIndividual IRI="#English"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FullClass"/>
+        <NamedIndividual IRI="#FullClass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Resource"/>
+        <NamedIndividual IRI="#GameFroot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InterdisciplinarySubject"/>
+        <NamedIndividual IRI="#Geography"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActivityType"/>
+        <NamedIndividual IRI="#GreenEnergyLab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CollaborativeMethod"/>
+        <NamedIndividual IRI="#GroupWork"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Humanities"/>
+        <NamedIndividual IRI="#History"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InformationAndDataLiteracy"/>
+        <NamedIndividual IRI="#InformationManagementSkill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProblemSolving"/>
+        <NamedIndividual IRI="#InnovativeThinkingSkill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JointClass"/>
+        <NamedIndividual IRI="#JointClass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningLevel"/>
+        <NamedIndividual IRI="#KinderGarten"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ExperientialMethod"/>
+        <NamedIndividual IRI="#LearningByDoing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PassiveMethod"/>
+        <NamedIndividual IRI="#LectureBasedLearning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Resource"/>
+        <NamedIndividual IRI="#LegoSpikeEssential"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Resource"/>
+        <NamedIndividual IRI="#LegoWeDo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActivityType"/>
+        <NamedIndividual IRI="#LittleStemPlay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#STEMSubject"/>
+        <NamedIndividual IRI="#Mathematics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MixedAbilityGroup"/>
+        <NamedIndividual IRI="#MixedAbilityGroup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Resource"/>
+        <NamedIndividual IRI="#MkBlock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DigitalContentCreation"/>
+        <NamedIndividual IRI="#MultimediaCreationSkill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Humanities"/>
+        <NamedIndividual IRI="#Music"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collaboration"/>
+        <NamedIndividual IRI="#OnlineCollaborationSkill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CollaborativeMethod"/>
+        <NamedIndividual IRI="#PeerTeaching"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#STEMSubject"/>
+        <NamedIndividual IRI="#Physics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActivityType"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningLevel"/>
+        <NamedIndividual IRI="#PrimarySchool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ExperientialMethod"/>
+        <NamedIndividual IRI="#ProblemBasedLearning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProblemSolving"/>
+        <NamedIndividual IRI="#ProblemSolvingSkill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DigitalContentCreation"/>
+        <NamedIndividual IRI="#ProgrammingSkill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ExperientialMethod"/>
+        <NamedIndividual IRI="#ProjectBasedLearning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamifiedMethod"/>
+        <NamedIndividual IRI="#QuizOnline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActivityType"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#STEMSubject"/>
+        <NamedIndividual IRI="#Science"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LearningLevel"/>
+        <NamedIndividual IRI="#SecondarySchool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GamifiedMethod"/>
+        <NamedIndividual IRI="#SeriousGame"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SmallGroup"/>
+        <NamedIndividual IRI="#SmallGroup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Resource"/>
+        <NamedIndividual IRI="#SpheroIndi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Resource"/>
+        <NamedIndividual IRI="#SuperDOCPro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#STEMSubject"/>
+        <NamedIndividual IRI="#Technology"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProblemSolving"/>
+        <NamedIndividual IRI="#TroubleshootingSkill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DigitalContentCreation"/>
+        <NamedIndividual IRI="#UnderstandingCopyright"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActivityType"/>
+        <NamedIndividual IRI="#UnpluggedExperience"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProblemSolvingActivity"/>
+        <NamedIndividual IRI="#VideogameCreation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TimeAllocation"/>
+        <NamedIndividual IRI="#12h"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TimeAllocation"/>
+        <NamedIndividual IRI="#15h"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TimeAllocation"/>
+        <NamedIndividual IRI="#25h"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TimeAllocation"/>
+        <NamedIndividual IRI="#6h"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TimeAllocation"/>
+        <NamedIndividual IRI="#60h"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TimeAllocation"/>
+        <NamedIndividual IRI="#8h"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adoptsTeachingMethod"/>
+        <NamedIndividual IRI="#GreenEnergyLab"/>
+        <NamedIndividual IRI="#GroupWork"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adoptsTeachingMethod"/>
+        <NamedIndividual IRI="#GreenEnergyLab"/>
+        <NamedIndividual IRI="#ProblemBasedLearning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#GreenEnergyLab"/>
+        <NamedIndividual IRI="#FullClass"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#GreenEnergyLab"/>
+        <NamedIndividual IRI="#JointClass"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOfSubject"/>
+        <NamedIndividual IRI="#GreenEnergyLab"/>
+        <NamedIndividual IRI="#Science"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOfSubject"/>
+        <NamedIndividual IRI="#GreenEnergyLab"/>
+        <NamedIndividual IRI="#Technology"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForLearningLevel"/>
+        <NamedIndividual IRI="#GreenEnergyLab"/>
+        <NamedIndividual IRI="#PrimarySchool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresTimeAllocation"/>
+        <NamedIndividual IRI="#GreenEnergyLab"/>
+        <NamedIndividual IRI="#12h"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#targetsCompetency"/>
+        <NamedIndividual IRI="#GreenEnergyLab"/>
+        <NamedIndividual IRI="#CollaborationSkill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#targetsCompetency"/>
+        <NamedIndividual IRI="#GreenEnergyLab"/>
+        <NamedIndividual IRI="#CriticalThinkingSkill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#targetsCompetency"/>
+        <NamedIndividual IRI="#GreenEnergyLab"/>
+        <NamedIndividual IRI="#DataSearchingSkill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesResource"/>
+        <NamedIndividual IRI="#GreenEnergyLab"/>
+        <NamedIndividual IRI="#LegoWeDo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#LittleStemPlay"/>
+        <NamedIndividual IRI="#JointClass"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#LittleStemPlay"/>
+        <NamedIndividual IRI="#SmallGroup"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForLearningLevel"/>
+        <NamedIndividual IRI="#LittleStemPlay"/>
+        <NamedIndividual IRI="#KinderGarten"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresTimeAllocation"/>
+        <NamedIndividual IRI="#LittleStemPlay"/>
+        <NamedIndividual IRI="#8h"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#targetsCompetency"/>
+        <NamedIndividual IRI="#LittleStemPlay"/>
+        <NamedIndividual IRI="#CollaborationSkill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#targetsCompetency"/>
+        <NamedIndividual IRI="#LittleStemPlay"/>
+        <NamedIndividual IRI="#CommunicationSkill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#targetsCompetency"/>
+        <NamedIndividual IRI="#LittleStemPlay"/>
+        <NamedIndividual IRI="#CriticalThinkingSkill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#targetsCompetency"/>
+        <NamedIndividual IRI="#LittleStemPlay"/>
+        <NamedIndividual IRI="#DataSearchingSkill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesResource"/>
+        <NamedIndividual IRI="#LittleStemPlay"/>
+        <NamedIndividual IRI="#CodyRoby"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesResource"/>
+        <NamedIndividual IRI="#LittleStemPlay"/>
+        <NamedIndividual IRI="#LegoSpikeEssential"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesResource"/>
+        <NamedIndividual IRI="#LittleStemPlay"/>
+        <NamedIndividual IRI="#SpheroIndi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesResource"/>
+        <NamedIndividual IRI="#LittleStemPlay"/>
+        <NamedIndividual IRI="#SuperDOCPro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adoptsTeachingMethod"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+        <NamedIndividual IRI="#GroupWork"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adoptsTeachingMethod"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+        <NamedIndividual IRI="#LectureBasedLearning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adoptsTeachingMethod"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+        <NamedIndividual IRI="#ProjectBasedLearning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+        <NamedIndividual IRI="#MixedAbilityGroup"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+        <NamedIndividual IRI="#SmallGroup"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOfSubject"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+        <NamedIndividual IRI="#English"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOfSubject"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+        <NamedIndividual IRI="#Mathematics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOfSubject"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+        <NamedIndividual IRI="#Science"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOfSubject"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+        <NamedIndividual IRI="#Technology"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForLearningLevel"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+        <NamedIndividual IRI="#SecondarySchool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresTimeAllocation"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+        <NamedIndividual IRI="#25h"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#targetsCompetency"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+        <NamedIndividual IRI="#CollaborationSkill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#targetsCompetency"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+        <NamedIndividual IRI="#CommunicationSkill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#targetsCompetency"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+        <NamedIndividual IRI="#DataSearchingSkill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#targetsCompetency"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+        <NamedIndividual IRI="#ProgrammingSkill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesResource"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+        <NamedIndividual IRI="#Arduino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesResource"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+        <NamedIndividual IRI="#MkBlock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adoptsTeachingMethod"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+        <NamedIndividual IRI="#GroupWork"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adoptsTeachingMethod"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+        <NamedIndividual IRI="#ProblemBasedLearning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+        <NamedIndividual IRI="#MixedAbilityGroup"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+        <NamedIndividual IRI="#SmallGroup"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOfSubject"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+        <NamedIndividual IRI="#Art"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOfSubject"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+        <NamedIndividual IRI="#English"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOfSubject"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+        <NamedIndividual IRI="#Geography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOfSubject"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+        <NamedIndividual IRI="#History"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOfSubject"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+        <NamedIndividual IRI="#Technology"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForLearningLevel"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+        <NamedIndividual IRI="#PrimarySchool"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresTimeAllocation"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+        <NamedIndividual IRI="#15h"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#targetsCompetency"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+        <NamedIndividual IRI="#CommunicationSkill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#targetsCompetency"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+        <NamedIndividual IRI="#CreativitySkill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#targetsCompetency"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+        <NamedIndividual IRI="#CriticalThinkingSkill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#targetsCompetency"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+        <NamedIndividual IRI="#DataSearchingSkill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesResource"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+        <NamedIndividual IRI="#LegoSpikeEssential"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesResource"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+        <NamedIndividual IRI="#SpheroIndi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adoptsTeachingMethod"/>
+        <NamedIndividual IRI="#UnpluggedExperience"/>
+        <NamedIndividual IRI="#GroupWork"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adoptsTeachingMethod"/>
+        <NamedIndividual IRI="#UnpluggedExperience"/>
+        <NamedIndividual IRI="#LearningByDoing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#adoptsTeachingMethod"/>
+        <NamedIndividual IRI="#UnpluggedExperience"/>
+        <NamedIndividual IRI="#ProblemBasedLearning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#UnpluggedExperience"/>
+        <NamedIndividual IRI="#FullClass"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <NamedIndividual IRI="#UnpluggedExperience"/>
+        <NamedIndividual IRI="#SmallGroup"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isPartOfSubject"/>
+        <NamedIndividual IRI="#UnpluggedExperience"/>
+        <NamedIndividual IRI="#Mathematics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForLearningLevel"/>
+        <NamedIndividual IRI="#UnpluggedExperience"/>
+        <NamedIndividual IRI="#KinderGarten"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requiresTimeAllocation"/>
+        <NamedIndividual IRI="#UnpluggedExperience"/>
+        <NamedIndividual IRI="#6h"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#targetsCompetency"/>
+        <NamedIndividual IRI="#UnpluggedExperience"/>
+        <NamedIndividual IRI="#ProblemSolvingSkill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesResource"/>
+        <NamedIndividual IRI="#UnpluggedExperience"/>
+        <NamedIndividual IRI="#CodyRoby"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDifficultyLevel"/>
+        <NamedIndividual IRI="#Arduino"/>
+        <Literal>Avanzato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaterialType"/>
+        <NamedIndividual IRI="#Arduino"/>
+        <Literal>Fisica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#CodyRoby"/>
+        <Literal>CodyRoby is a DIY card game to play with unplugged coding at any age. Download your free CodyRoby kit, print it out, cut the cards, fold the card box, and start playing! Instructions and represented by colourful cards reporting the symbols associated to three elementary moves:</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDifficultyLevel"/>
+        <NamedIndividual IRI="#CodyRoby"/>
+        <Literal>base</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaterialType"/>
+        <NamedIndividual IRI="#CodyRoby"/>
+        <Literal>Fisica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#CollaborationSkill"/>
+        <Literal>The ability to think outside the box, finding innovative solutions to problems.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#ComputerScience"/>
+        <Literal>The study of computational systems, algorithms, and programming concepts.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#CriticalEvaluationSkill"/>
+        <Literal>The ability to assess information, arguments, and ideas critically to make informed judgments.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#CyberSecurityAwareness"/>
+        <Literal>Knowledge and practices aimed at protecting information systems from cyber threats.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#DataPrivacySkill"/>
+        <Literal>The ability to manage and protect personal and organizational data according to privacy standards.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#DataSearchingSkill"/>
+        <Literal>The ability to efficiently locate, evaluate, and utilize data from various sources.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#DigitalCommunicationSkill"/>
+        <Literal>The capacity to effectively communicate using digital tools and platforms.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#FullClass"/>
+        <Literal>A teaching approach or context involving all students in a classroom.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#GameFroot"/>
+        <Literal>A platform or tool for creating educational games.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDifficultyLevel"/>
+        <NamedIndividual IRI="#GameFroot"/>
+        <Literal>Avanzato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaterialType"/>
+        <NamedIndividual IRI="#GameFroot"/>
+        <Literal>Digitale</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#Geography"/>
+        <Literal>The study of the Earth&apos;s physical features and human populations, their cultures, economies, and interactions with the environment.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#GreenEnergyLab"/>
+        <Literal>Gli studenti costruiscono modelli di impianti energetici sostenibili (es. mulini a vento o pannelli solari in miniatura) usando Lego WEDO. L’obiettivo è comprendere i principi delle energie rinnovabili e stimolare l’interesse verso la sostenibilità ambientale.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#GroupWork"/>
+        <Literal>Collaborative activities where students work together to achieve a common goal.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#History"/>
+        <Literal>The study of past events, societies cultures.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#InformationManagementSkill"/>
+        <Literal>The ability to organize, store, and retrieve information effectively.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#InnovativeThinkingSkill"/>
+        <Literal>The capacity to generate creative and original ideas or solutions.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#JointClass"/>
+        <Literal>A teaching session combining students or content from multiple classes or groups.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#KinderGarten"/>
+        <Literal>Early childhood education class.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#LectureBasedLearning"/>
+        <Literal>A traditional teaching method centered on instructor-led lectures.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#LegoSpikeEssential"/>
+        <Literal>A hands-on STEM learning tool involving LEGO bricks and programmable components.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDifficultyLevel"/>
+        <NamedIndividual IRI="#LegoSpikeEssential"/>
+        <Literal>Base</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaterialType"/>
+        <NamedIndividual IRI="#LegoSpikeEssential"/>
+        <Literal>Fisica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDifficultyLevel"/>
+        <NamedIndividual IRI="#LegoWeDo"/>
+        <Literal>Avanzato</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaterialType"/>
+        <NamedIndividual IRI="#LegoWeDo"/>
+        <Literal>Fisica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#LittleStemPlay"/>
+        <Literal>I bambini usano piccoli robot programmabili come Sphero Indi per creare storie interattive. Attraverso l’uso di percorsi colorati e simboli, i bambini guidano il robot attraverso un racconto che include tappe significative. L’obiettivo è stimolare il pensiero logico e la creatività.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#Mathematics"/>
+        <Literal>The study of numbers, shapes, patterns, and relationships using logic and abstraction.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#MixedAbilityGroup"/>
+        <Literal>A group of learners with diverse skill levels working together on tasks.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDifficultyLevel"/>
+        <NamedIndividual IRI="#MkBlock"/>
+        <Literal>Base</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaterialType"/>
+        <NamedIndividual IRI="#MkBlock"/>
+        <Literal>Digitale</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#MultimediaCreationSkill"/>
+        <Literal>The ability to create and manage multimedia content, such as videos, images, and audio.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#Music"/>
+        <Literal>The study of musical theory, history, composition, performance, and appreciation.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#OnlineCollaborationSkill"/>
+        <Literal>The ability to work effectively with others using digital tools in a virtual environment.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#PeerTeaching"/>
+        <Literal>An instructional strategy where students teach their peers to reinforce learning.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#Physics"/>
+        <Literal>The study of matter, energy, and the fundamental laws of nature.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#PlayArduino"/>
+        <Literal>Gli studenti progettano e costruiscono un prototipo di sistema di automazione domestica intelligente utilizzando Arduino. L&apos;obiettivo è creare un sistema che svolga compiti specifici, come il controllo automatico delle luci, la regolazione della temperatura o l’irrigazione di una pianta, basandosi su sensori ambientali. Gli studenti lavorano in gruppi per pianificare il progetto, assemblare il circuito, programmare il dispositivo e testare il funzionamento del sistema.
+Durante l’attività, vengono introdotti concetti chiave come l&apos;Internet of Things (IoT), la raccolta dati da sensori, e l&apos;elaborazione dei dati per automatizzare processi. Alla fine del progetto, i gruppi presentano il loro sistema, descrivendone il funzionamento e i miglioramenti apportati.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#PrimarySchool"/>
+        <Literal>Education typically for children aged 5 to 11, focusing on foundational subjects.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#ProblemBasedLearning"/>
+        <Literal>A methodology where students learn by actively exploring real-world challenges and problems, developing skills such as teamwork, research, and critical thinking.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#ProgrammingSkill"/>
+        <Literal>The ability to write, debug, and maintain computer programs.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#ProjectBasedLearning"/>
+        <Literal>An instructional method where students learn by engaging in extended projects.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#QuizOnline"/>
+        <Literal>An online assessment or interactive quiz tool.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#RobotExploreMyCity"/>
+        <Literal>Gli studenti programmano piccoli robot come Lego Spike Essential per esplorare un percorso ispirato a una città locale. Ogni gruppo progetta una tappa (es. monumenti, parchi), costruisce modelli e programma il robot per attraversare il percorso.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#SecondarySchool"/>
+        <Literal>Education for students aged 11 to 14, focusing on advanced academic and practical subjects.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#SeriousGame"/>
+        <Literal>Games designed for educational purposes rather than entertainment.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#SmallGroup"/>
+        <Literal>Learning activities conducted in small groups to encourage collaboration and interaction.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#SpheroIndi"/>
+        <Literal>A programmable robotic device designed to teach coding and problem-solving skills.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDifficultyLevel"/>
+        <NamedIndividual IRI="#SpheroIndi"/>
+        <Literal>Base</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaterialType"/>
+        <NamedIndividual IRI="#SpheroIndi"/>
+        <Literal>Fisica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#SuperDOCPro"/>
+        <Literal>it is the game that introduces children to Educational Robotics and helps them learn the basic concepts of programming in an easy and fun way, stimulating their creativity and training their logical and problem-solving skills.
+DOC allows you to take your first steps in the world of programming and learn by playing.
+Doc is an intelligent robot: it carries out the commands set with the programming, recognizes the correct paths on the game board and is precise in its movements.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDifficultyLevel"/>
+        <NamedIndividual IRI="#SuperDOCPro"/>
+        <Literal>Base</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaterialType"/>
+        <NamedIndividual IRI="#SuperDOCPro"/>
+        <Literal>Fisica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#TroubleshootingSkill"/>
+        <Literal>The ability to identify and resolve problems efficiently.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#UnderstandingCopyright"/>
+        <Literal>Knowledge of copyright laws and how they apply to intellectual property.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#UnpluggedExperience"/>
+        <Literal>Attraverso giochi e attività senza l&apos;uso di dispositivi digitali, i bambini imparano i concetti base della programmazione, come sequenze e cicli. Con l’aiuto di carte colorate o griglie disegnate, i bambini programmano i loro movimenti o quelli di un compagno per completare un percorso.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDescription"/>
+        <NamedIndividual IRI="#VideogameCreation"/>
+        <Literal>The process of designing and developing video games, often with an educational focus.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#12h"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#15h"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#25h"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#6h"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#60h"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDuration"/>
+        <NamedIndividual IRI="#8h"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPartOfSubject"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSuitableForLearningLevel"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isSuitableForLearningLevel"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#requiresTimeAllocation"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#adoptsTeachingMethod"/>
+        <Class IRI="#ActivityType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <Class IRI="#ActivityType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOfSubject"/>
+        <Class IRI="#ActivityType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSuitableForLearningLevel"/>
+        <Class IRI="#ActivityType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresTimeAllocation"/>
+        <Class IRI="#ActivityType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#targetsCompetency"/>
+        <Class IRI="#ActivityType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usesResource"/>
+        <Class IRI="#ActivityType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#adoptsTeachingMethod"/>
+        <Class IRI="#TeachingMethod"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDesignedFor"/>
+        <Class IRI="#TargetType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOfSubject"/>
+        <Class IRI="#Subject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSuitableForLearningLevel"/>
+        <Class IRI="#LearningLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresTimeAllocation"/>
+        <Class IRI="#TimeAllocation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#targetsCompetency"/>
+        <Class IRI="#Competency"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usesResource"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasDescription"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDescription"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDifficultyLevel"/>
+        <Class IRI="#Resource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDuration"/>
+        <Class IRI="#TimeAllocation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMaterialType"/>
+        <Class IRI="#Resource"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDifficultyLevel"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDuration"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMaterialType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
