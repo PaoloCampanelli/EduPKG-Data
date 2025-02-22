@@ -7,5 +7,3 @@ Questo repository contiene:
 ## Come usare EduPKG.owl
 Il file OWL può essere aperto con strumenti come Protégé o visualizzato con un editor di testo.
 
-## Licenza
-Questi dati sono rilasciati sotto la licenza MIT.
